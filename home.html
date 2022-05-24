@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Amfani new landing page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="./landing.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <div class="amfani-logo">
+          <img src="./images/Amfani-logo.png" />
+        </div>
+        <div
+          class="nav-list d-flex align-items-center justify-content-space-around"
+        >
+          <ul
+            class="d-flex align-items-center justify-content-space-evenly nav-list-items"
+          >
+            <li class="p-3">Jobs</li>
+            <li class="p-3">FAQ</li>
+            <li class="p-3">Pricing</li>
+            <li class="p-3">Service</li>
+            <li class="p-3">Contact Us</li>
+            <li class="p-3">Login</li>
+            <li class="p-3">
+              <button class="btn sign-up">Sign Up</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide"
+      data-ride="carousel"
+      data-interval="3000"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            class="d-block w-100"
+            src="./images/employer.png"
+            alt="First slide"
+          />
+
+          <div class="carousel-caption d-none d-md-block slider-text">
+            <h5>Are you an Employer?</h5>
+            <h3>find the right</h3>
+            <h3><span>employee</span> here</h3>
+            <p>
+              Amfani is a platform that has all the tools you need for finding
+              qualified candidates for your job openings.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="./images/employer.png"
+            alt="Second slide"
+          />
+
+          <div class="carousel-caption d-none d-md-block slider-text">
+            <h5>Are you a Job Seeker?</h5>
+            <h3>find the right</h3>
+            <h3><span>jobs</span> here</h3>
+            <p>
+              Amfani is a platform that has all the tools you need when looking
+              for genuine job openings in any field of specialization.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <div class="user-portal-container">
+        <div>
+          <button class="btn portal-btns">
+            <a href="/">
+              <span><i class="fa-solid fa-user"></i></span> I am a Job Seeker</a
+            >
+          </button>
+        </div>
+
+        <div>
+          <button class="btn portal-btns">
+            <a href="/">
+              <i class="fa-solid fa-building"></i> I am an Employer</a
+            >
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="partners-section">
+      <div>
+        <h2>our partners</h2>
+        <div class="partners-logo">
+      
+          <div class="logo-container">
+            <img src="./images/Apherion.png" />
+          </div>
+
+          <div class="logo-container">
+            <img src="./images/NIGSIMS logo.png" />
+          </div>
+
+          <div class="logo-container">
+            <img src="./images/interra-logo.png" />
+          </div>
+
+          <div class="logo-container">
+            <img src="./images/Santus_consulting.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-us">
+      <div class="about-us-card">
+        <div class="about-us-text">
+          <h3>about us</h3>
+          <p>
+            Amfani is a Human Resource Management Company that effectively match
+            makes applicants to employers. This makes job hunting and
+            recruitment process easier, intuitive and effective for both would
+            be applicants and Organizations looking for quality candidates to
+            fill available positions. The platform effectively allows an
+            Organization manage all its human resources needs such as
+            Recruitment/ Onboarding, Time and Attendance, Leave/ Time-off
+            Management, Performance Management/ Training, Personnel Information
+            management.
+          </p>
+        </div>
+
+        <div class="about-us-image">
+          <img src="./images/humanresource.png" />
+        </div>
+      </div>
+    </section>
+
+    <section class="uses-amfani">
+      <h1>why do you need amfani</h1>
+      <div class="row">
+        <div class="col-4">
+          <div class="list-group" id="list-tab" role="tablist">
+            <a
+              class="list-group-item list-group-item-action active"
+              id="list-home-list"
+              data-toggle="list"
+              href="#list-home"
+              role="tab"
+              aria-controls="home"
+              >Employers</a
+            >
+            <a
+              class="list-group-item list-group-item-action"
+              id="list-profile-list"
+              data-toggle="list"
+              href="#list-profile"
+              role="tab"
+              aria-controls="profile"
+              >Job Seekers</a
+            >
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="tab-content scrollbar" id="nav-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="list-home"
+              role="tabpanel"
+              aria-labelledby="list-home-list"
+            >
+              <div>
+                <h4>
+                  <span><i class="fa-solid fa-handshake"></i></span> Recruitment
+                </h4>
+                <p>
+                  Gain access to qualified candidates from Amfani to fill
+                  available positions which saves you the hassle of manually
+                  tracking every recruitment process by streamlining the hiring
+                  process of sorting and accepting qualified applicants.
+                </p>
+              </div>
+              <div>
+                <h4>
+                  <span><i class="fa-solid fa-handshake"></i></span> Screening
+                </h4>
+                <p>
+                  Get access to top recommendations of qualified candidates that
+                  have been filtered from amfani screening test and select your
+                  preferred applicant that suits your positions.
+                </p>
+              </div>
+              <div>
+                <h4>
+                  <span><i class="fa-solid fa-handshake"></i></span> Job Ads
+                </h4>
+                <p>
+                  Make application process easier by advertising your jobs on
+                  our platform to get a larger talent listing(to a large
+                  audience of jobseekers) and attract potential job candidates.
+                </p>
+              </div>
+              <div>
+                <h4>
+                  <span><i class="fa-solid fa-handshake"></i></span> Leave
+                  Management
+                </h4>
+                <p>
+                  Have access to tracking your employees time-off, leave
+                  calendar for each department and leave application showing the
+                  list of all submitted leave applications by employees
+                  (approved and non-approved leaves).
+                </p>
+              </div>
+              <div>
+                <h4>
+                  <span><i class="fa-solid fa-handshake"></i></span> Staff
+                  Management
+                </h4>
+                <p>
+                  This is a platform where information of every employee in the
+                  organization is tracked and recorded. This information
+                  includes, pay grade, Employment status, Total number of staff,
+                  terminated staffs, Leave management and Personal bio data of
+                  staffs.
+                </p>
+              </div>
+              <button class="btn">Get Started</button>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="list-profile"
+              role="tabpanel"
+              aria-labelledby="list-profile-list"
+            >
+              <p>
+                Cupidatat quis ad sint excepteur laborum in esse qui. Et
+                excepteur consectetur ex nisi eu do cillum ad laborum. Mollit et
+                eu officia dolore sunt Lorem culpa qui commodo velit ex amet id
+                ex. Officia anim incididunt laboris deserunt anim aute dolor
+                incididunt veniam aute dolore do exercitation. Dolor nisi culpa
+                ex ad irure in elit eu dolore. Ad laboris ipsum reprehenderit
+                irure non commodo enim culpa commodo veniam incididunt veniam
+                ad.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="newsletter">
+      <div class="newsletter-grid">
+        <div>
+          <h3>get <span>job alerts</span> straight to your mail</h3>
+          <p>
+            We'll help you find great opportunities. Receive your top new job
+            matches directly in your inbox.
+          </p>
+        </div>
+        <div>
+          <form>
+            <input type="email" name="email" id="email" placeholder="Email" />
+            <button type="submit" class="newsletter-btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-grid-container">
+        <div class="footer-grid">
+          <div class="footer-logo">
+            <img src="./images/Amfani-logo.png" />
+          </div>
+          <div class="footer-list-grid">
+            <div>
+              <h4>quicklinks</h4>
+              <ul>
+                <li>
+                  <a href="/">employer</a>
+                </li>
+                <li>
+                  <a href="/">job seeker</a>
+                </li>
+                <li>
+                  <a href="/">latest jobs</a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h4>contact us</h4>
+              <ul>
+                <li>
+                  <a href="mailto:info@amfani.com">info@amfani.com</a>
+                </li>
+                <li>
+                  <span><i class="fa-brands fa-facebook"></i></span>
+                  <span><i class="fa-brands fa-twitter"></i></span>
+                </li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <p>Copyright Amfani 2022 || Powered by INterra Networks Limited</p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+
+  <script></script>
+</html>
